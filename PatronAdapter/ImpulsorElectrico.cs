@@ -6,7 +6,7 @@ namespace PatronAdapter
 {
     class ImpulsorElectrico
     {
-        //estructura boolena 
+        //estructura boolena implementada para utilizar true y false tambien hacer uso de if y else
         bool _CONECTAR;
         bool _ACTIVAR;
         bool _MOVER;
