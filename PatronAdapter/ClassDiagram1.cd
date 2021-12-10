@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="   ADAPTER">
+    <Position X="8.807" Y="2.132" Height="0.406" Width="0.888" />
+  </Comment>
+  <Class Name="PatronAdapter.Impulsor">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAEAAQAAAAAAA=</HashCode>
+      <FileName>Impulsor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronAdapter.ImpulsorDisel">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAEAAQAAAAAAA=</HashCode>
+      <FileName>ImpulsorDisel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronAdapter.ImpulsorElectrico">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAAAEAggAAAQAGACAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImpulsorElectrico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatronAdapter.ImpulsorElectricoAdapter">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAACAAQAAgAEAAQAAAAAAA=</HashCode>
+      <FileName>ImpulsorElectricoAdapter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ImpulsorElectrico" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PatronAdapter.ImpulsorGasolina">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="PatronAdapter.Impulsor" FixedFromPoint="true">
+      <Path>
+        <Point X="7.25" Y="2.18" />
+        <Point X="7.25" Y="2.375" />
+        <Point X="5" Y="2.375" />
+        <Point X="5" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAEAAQAAAAAAA=</HashCode>
+      <FileName>ImpulsorGasolina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
